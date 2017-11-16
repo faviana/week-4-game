@@ -18,6 +18,7 @@ $(document).ready(function () {
 
         totalPoint = totalPoint + randomPointNumber1;
         console.log("New totalPoint= " + totalPoint);
+        $('#totalValue').text(totalPoint); 
        
     });
 
@@ -26,6 +27,7 @@ $(document).ready(function () {
         
         totalPoint = totalPoint + randomPointNumber2;
         console.log("New totalPoint= " + totalPoint);
+        $('#totalValue').text(totalPoint); 
  
      });
 
@@ -34,6 +36,7 @@ $(document).ready(function () {
         
         totalPoint = totalPoint + randomPointNumber3;
         console.log("New totalPoint= " + totalPoint);
+        $('#totalValue').text(totalPoint); 
  
      });
 
@@ -42,6 +45,7 @@ $(document).ready(function () {
         
         totalPoint = totalPoint + randomPointNumber4;
         console.log("New totalPoint= " + totalPoint);
+        $('#totalValue').text(totalPoint); 
  
      });
 
