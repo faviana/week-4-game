@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <!-- CSS reference -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- JQuery reference -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
         
 </head>
 
@@ -22,15 +24,20 @@
     <h2>
 
     <div id="colors">
-        <img class="color-image" src="assets/images/blueGreenL.png" alt="light blue green color box">
-        <img class="color-image" src="assets/images/blueGreen.png" alt="blue green color box">
-        <img class="color-image" src="assets/images/coral.png" alt="coral color box">
-        <img class="color-image" src="assets/images/mustard.png" alt="mustard color box">
+        <div class="container">
+            <img class="color-image" src="assets/images/blueGreenL.png" alt="light blue green color box">
+            <!-- <img class="color-image" src="assets/images/blueGreen.png" alt="blue green color box">
+            <img class="color-image" src="assets/images/coral.png" alt="coral color box">
+            <img class="color-image" src="assets/images/mustard.png" alt="mustard color box"> -->
+                <div class="middle">
+                    <div class="text">The value of this box is:
+                        <div id="boxValue"></div>
+                    </div>
+                </div>
+        </div>
     </div>
 
     <!-- javascript reference -->
     <script src="assets\javascript\game.js"></script>
-    <!-- JQuery reference -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
-    
+        
 </body>    

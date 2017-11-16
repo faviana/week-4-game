@@ -7,3 +7,10 @@ $( document ).ready(function(){
     $('#randomNumber').text(createRandomNumber);
 });
 
+//created a click funtion to images
+$(".color-image").on("click", function() {
+    
+        // Clicking the button triggers an alert message.
+        alert("You clicked a crystal!");
+    
+      });
