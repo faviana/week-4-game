@@ -32,7 +32,9 @@ $(document).ready(function () {
             $('#win').text(wins);
         }
         
-        else{
+        //if totalPoint is geated than the random number
+        else if(totalPoint>createRandomNumber){
+            //you loose, add one point to losses
             losses++;
             //displays the lossing point++
             $('#lose').text(losses);
@@ -54,13 +56,17 @@ $(document).ready(function () {
             wins++;
             //displays the winning point++
             $('#win').text(wins);
+
         }
         
-        else{
+        //if totalPoint is greated than the random number
+        else if(totalPoint>createRandomNumber){
+            //you loose, add one point to losses
             losses++;
             //displays the lossing point++
             $('#lose').text(losses);
-        }
+
+         }
  
      });
 
@@ -80,7 +86,9 @@ $(document).ready(function () {
             $('#win').text(wins);
         }
         
-        else{
+        //if totalPoint is greated than the random number
+        else if(totalPoint>createRandomNumber){
+            //you loose, add one point to losses
             losses++;
             //displays the lossing point++
             $('#lose').text(losses);
@@ -104,7 +112,9 @@ $(document).ready(function () {
             $('#win').text(wins);
         }
         
-        else{
+        //if totalPoint is greated than the random number
+        else if(totalPoint>createRandomNumber){
+            //you loose, add one point to losses
             losses++;
             //displays the lossing point++
             $('#lose').text(losses);
